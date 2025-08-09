@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+ Form Builder Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A dynamic form builder application built with React, TypeScript, Material UI, and Redux Toolkit.  
+This tool allows users to create custom forms, preview them, edit saved forms, and validate user input before submission.
 
-## Available Scripts
+  Live Demo
+ [Click here to view the deployed app]([https://form-builder-veenith.vercel.app](https://vercel.com/veenith-kumar-ss-projects/form-builder))
 
-In the project directory, you can run:
+ GitHub Repository
+ [Form Builder GitHub Repo](https://github.com/Veenith31/form-builder))
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ Features
+- Create Custom Forms
+  - Add various field types: text, number, textarea, select, radio, checkbox, date
+  - Set validation rules: required, min/max length, email format, password rule
+- Edit Existing Forms
+  - Update form fields and re-save
+- Preview Forms
+  - Live preview with validation checks before submission
+- Save to Local Storage
+  - Persists forms for later editing or submission
+- Delete Fields
+  - Remove any unwanted fields from the form
+- Responsive UI
+  - Built with Material UI for a clean, modern interface
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+Tech Stack
+- Frontend: React, TypeScript, Material UI
+- State Management: Redux Toolkit
+- Deployment: Vercel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ Installation & Setup
+Follow these steps to run the project locally:
 
-### `npm run build`
+ 1. Clone the repository
+git clone https://github.com/Veenith31/form-builder.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ 2. Navigate into the project folder
+cd form-builder
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ 3. Install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+ 4. Start the development server
+npm start
