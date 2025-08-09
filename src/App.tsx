@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -20,6 +20,35 @@ function App() {
         </a>
       </header>
     </div>
+  );
+}
+
+export default App;
+*/
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import CreateForm from "./pages/CreateForm";
+import PreviewForm from "./pages/PreviewForm";
+import MyForms from "./pages/MyForms";
+import ViewSubmissions from "./pages/ViewSubmissions";
+
+
+
+
+
+
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/create" element={<CreateForm />} />
+        <Route path="/preview" element={<PreviewForm />} />
+          <Route path="/Myforms" element={<MyForms />} /> 
+       
+         <Route path="/submissions/:formId" element={<ViewSubmissions />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
