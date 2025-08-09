@@ -4,7 +4,7 @@ A dynamic form builder application built with React, TypeScript, Material UI, an
 This tool allows users to create custom forms, preview them, edit saved forms, and validate user input before submission.
 
   Live Demo
- [Click here to view the deployed app]([https://form-builder-veenith.vercel.app](https://vercel.com/veenith-kumar-ss-projects/form-builder))
+ [Click here to view the deployed app]((https://vercel.com/veenith-kumar-ss-projects/form-builder))
 
  GitHub Repository
  [Form Builder GitHub Repo](https://github.com/Veenith31/form-builder))
